@@ -1,0 +1,44 @@
+
+.Flex-Row .Mobile-Footer{
+    display: none;
+}
+
+@media(max-width:770px){
+   .Flex-Row .Mobile-Footer{
+       display: flex;
+       background-color: #02000a;
+       height: 10rem;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+   .Flex-Row .Mobile-Footer h1{
+       color: white;
+       font-weight: bold;
+       font-size: 1.6rem;
+       letter-spacing: 0.1rem;
+   }
+
+   .Flex-Row .Mobile-Footer h1 span{
+       color: whitesmoke;
+       font-size: 1.5rem;
+       padding-left: 1rem;
+   }
+   .Flex-Row .Mobile-Footer .mobilefootericons{
+       display: flex;
+       align-items: baseline;
+   }
+   .Flex-Row .Mobile-Footer .mobilefootericons h1{
+     padding: 0 1rem;
+   }
+   .Flex-Row .Mobile-Footer .mobilefootericons a{
+       font-size: 2.4rem;
+       color: white;
+       text-decoration: none;
+       padding: 0 1rem;
+       transition:color .2s ease-in-out;
+   }
+   .Flex-Row .Mobile-Footer .mobilefootericons a:hover{
+       color: rgb(12,175,247);
+   }
+}
